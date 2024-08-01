@@ -200,7 +200,7 @@ const projects = [
   {
     name: "Book Catalog",
     description:
-      "A single-page application built with Vite, React and store data using Firebase.",
+      "A single-page application enables users browse, search, and manage a vast collection of book articles, built with Vite, React and store data using Firebase.",
     tags: [
       {
         name: "react",
