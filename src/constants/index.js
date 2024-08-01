@@ -20,7 +20,7 @@ import {
   tesla,
   shopify,
   bookcat,
-  jobit,
+  furniture,
   tripguide,
   threejs,
 } from "../assets";
@@ -219,41 +219,42 @@ const projects = [
     source_code_link: "https://github.com/ntdsam2830/Book-Catalog",
   },
   {
-    name: "Job IT",
+    name: "Future Furniture - Online Furniture Store & Admin Dashboard",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A website for a furniture store, developed using the MERN stack. This is a group project assignment from the course CTT504 – Software Design (21KTPM2) at VNU-HCM, University of Science.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: furniture,
+    source_code_link:
+      "https://github.com/ntdsam2830/CTT504_Final_Furniture-Store-Website.git",
   },
   {
-    name: "Trip Guide",
+    name: "Future Furniture - Online Furniture Store & Admin Dashboard",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A website for a furniture store, developed using the MERN stack. This is a group project assignment from the course CTT504 – Software Design (21KTPM2) at VNU-HCM, University of Science.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
     ],

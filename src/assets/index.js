@@ -29,6 +29,7 @@ import tesla from "./company/tesla.png";
 import bookcat from "./bookcat.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import furniture from "./furniture.png";
 
 export {
   sam,
@@ -59,4 +60,5 @@ export {
   bookcat,
   jobit,
   tripguide,
+  furniture,
 };
