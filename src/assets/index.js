@@ -1,5 +1,5 @@
 import sam from "./sam.svg";
-import backend from "./backend.png";
+import frontend from "./frontend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
@@ -32,7 +32,7 @@ import tripguide from "./tripguide.png";
 
 export {
   sam,
-  backend,
+  frontend,
   creator,
   mobile,
   web,
