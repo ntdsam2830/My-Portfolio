@@ -52,7 +52,7 @@ const About = () => {
         I'm studying Information Technology with a specialization in Software
         Engineering. I have a strong passion for web development, especially for
         frontend development and have gained substantial experience working with
-        JavaScript and TypeScript, and and expertise in frameworks like React,
+        JavaScript and TypeScript, and expertise in frameworks like React,
         Node.js, and Three.js. My projects reflect my commitment to creating
         dynamic and user-friendly applications. I'm always eager to learn and
         take on new challenges to enhance my skills and contribute to innovative
