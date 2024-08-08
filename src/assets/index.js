@@ -31,6 +31,9 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import furniture from "./furniture.png";
 
+import linkedin from "./linkedin.png";
+import ins from "./instagram.png";
+
 export {
   sam,
   frontend,
@@ -61,4 +64,6 @@ export {
   jobit,
   tripguide,
   furniture,
+  linkedin,
+  ins,
 };

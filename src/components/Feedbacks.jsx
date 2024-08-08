@@ -13,6 +13,7 @@ const FeedbackCard = ({
   designation,
   company,
   image,
+  link,
 }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
@@ -26,18 +27,21 @@ const FeedbackCard = ({
       <div className="mt-7 flex justify-between items-center gap-1">
         <div className="flex-1 flex flex-col">
           <p className="text-white font-medium text-[16px]">
-            <span className="blue-text-gradient">@</span> {name}
+            <span className="blue-text-gradient"></span> {name}
           </p>
-          <p className="mt-1 text-secondary text-[12px]">
-            {designation} of {company}
-          </p>
+          <p className="mt-1 text-secondary text-[12px]"></p>
         </div>
 
-        <img
-          src={image}
-          alt={`feedback_by-${name}`}
-          className="w-10 h-10 rounded-full object-cover"
-        />
+        <div
+          onClick={() => window.open(link, "_blank")}
+          className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+        >
+          <img
+            src={image}
+            alt={`feedback_by-${name}`}
+            className="w-10 h-10 rounded-full object-cover"
+          />
+        </div>
       </div>
     </div>
   </motion.div>
@@ -50,8 +54,8 @@ const Feedbacks = () => {
         className={`${styles.padding} bg-tertiary rounded-2xl min-h-[300px]`}
       >
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubtext}>What others say</p>
-          <h2 className={styles.sectionHeadText}>Testimonials</h2>
+        <p className={`${styles.sectionSubText} `}>You can find me</p>
+        <h2 className={`${styles.sectionHeadText}`}>Here</h2>
         </motion.div>
       </div>
 

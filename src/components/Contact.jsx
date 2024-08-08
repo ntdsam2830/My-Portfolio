@@ -1,6 +1,5 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { motion } from "framer-motion";
-import { EmailJSResponseStatus } from "@emailjs/browser";
 import emailjs from "@emailjs/browser";
 
 import { styles } from "../styles";
@@ -95,7 +94,7 @@ const Contact = () => {
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your email</span>
+            <span className="text-white font-medium mb-4">Your Email</span>
             <input
               type="email"
               name="email"

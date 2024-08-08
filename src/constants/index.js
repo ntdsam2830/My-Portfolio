@@ -23,6 +23,9 @@ import {
   furniture,
   tripguide,
   threejs,
+  github,
+  linkedin,
+  ins,
 } from "../assets";
 
 export const navLinks = [
@@ -171,28 +174,28 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    testimonial: "Github",
+    name: "ntdsam2830",
+    designation: "",
+    company: "",
+    image: github,
+    link: "https://github.com/ntdsam2830",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    testimonial: "LinkedIn",
+    name: "Thai Dan Sam Nguyen",
+    designation: "",
+    company: "",
+    image: linkedin,
+    link: "https://www.linkedin.com/in/thai-dan-sam-nguyen-ss2830/",
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    testimonial: "Instagram",
+    name: "ntdsam2830",
+    designation: "",
+    company: "",
+    image: ins,
+    link: "https://www.instagram.com/ntdsam2830/",
   },
 ];
 
