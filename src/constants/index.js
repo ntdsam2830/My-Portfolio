@@ -191,11 +191,11 @@ const testimonials = [
   },
   {
     testimonial: "Instagram",
-    name: "ntdsam2830",
+    name: "abientotsammmmm",
     designation: "",
     company: "",
     image: ins,
-    link: "https://www.instagram.com/ntdsam2830/",
+    link: "https://www.instagram.com/abientotsammmmm/",
   },
 ];
 
